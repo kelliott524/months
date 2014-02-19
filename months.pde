@@ -11,5 +11,7 @@ String [] months = {"january", "february", "march", "april", "may", "june", "jul
 //if (mousePressed); {
  int index = int(random(months.length));
  println(months[index]);
+ text(months[index],200,200); 
+ textSize(36); 
 //}
 }
